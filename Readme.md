@@ -1,6 +1,6 @@
 # Личный проект «Нёрдс»
 
-* Студент: [Anya Kozyreva](https://up.htmlacademy.ru/htmlcss/31/user/640419).
+* Студент: [Anya 🐿️ Kozyreva](https://up.htmlacademy.ru/htmlcss/31/user/640419).
 * Наставник: Виктор 🐟 Рыбаков.
 
 ---
