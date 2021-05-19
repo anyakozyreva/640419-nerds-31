@@ -6,7 +6,6 @@
 =======
 * Студент: [Anya 🐿️ Kozyreva](https://up.htmlacademy.ru/htmlcss/31/user/640419).
 * Наставник: [Виктор 🐟 Рыбаков](https://htmlacademy.ru/profile/viktor-rybakov)
->>>>>>> fb4b8d9e8549b6ece6f57e77858c8868208d11f5
 
 ---
 
