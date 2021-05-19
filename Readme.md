@@ -1,12 +1,6 @@
 # Личный проект «Нёрдс»
-
-<<<<<<< HEAD
-* Студент: [Anya Kozyreva](https://up.htmlacademy.ru/htmlcss/31/user/640419).
-* Наставник:[Виктор 🐟 Рыбаков](https://htmlacademy.ru/profile/viktor-rybakov)
-=======
 * Студент: [Anya 🐿️ Kozyreva](https://up.htmlacademy.ru/htmlcss/31/user/640419).
 * Наставник: [Виктор 🐟 Рыбаков](https://htmlacademy.ru/profile/viktor-rybakov)
-
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
