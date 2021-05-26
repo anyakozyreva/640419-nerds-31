@@ -1,270 +1,147 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<title>Интернет магазин «Nёrds</title>
+	<title>HTML Academy: Нёрдс</title>
 	<link href="css/style.css" rel="stylesheet" >
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 </head>
-
 <body>
-	
-					<!--- 				H E A D E R					-->
 
-	<header class="main-header">
-
-					<!--- 					N A V					-->
-
-<nav class="main-navigation">
-
-<a href="#">
-<img src="https://via.placeholder.com/760x431" width="760" height="431" alt="nerds-index-slide1">
-</a>
-
-
-<ul class="site-navigation">
-<li><a href="blank.html">СТУДИЯ</a></li>
-<li><a href="blank.html">КЛИЕНТЫ</a></li>
-<li><a href="catalog.html">МАГАЗИН</a></li>
-<li><a href="blank.html">КОНТАКТЫ</a></li>
-</ul>
-
-<a href="blanl.html">Корзина</a>
-
-</nav>
-
-				<p><h1>Магазин готовых шаблонов</h1></p>
-
-	</header>
-
-					<!--- 				   M A I N 					        -->
-
-	<main>
-
-					<!--- 		menu section			-->
-
+<header class="main-header">
+           <nav class="main-navigation">
+	   	<p><a href="index.html">
+		  	<img src="https://via.placeholder.com/159x65" width="159" height="65" alt="Логотип проета Нёрдс"></a></p>
+				 <ul class="site-navigation">
+					 <li><a href="blank.html">Студия</a></li>
+					 <li><a href="blank.html">Клиенты</a></li>
+					 <li><a href="catalog.html">Магазин</a></li>
+					 <li><a href="blank.html">Контакты</a></li>
+			    </ul>
+       	<a href="blank.html">Корзина</a>
+       	   </nav>
+</header>
+ 				  
+<main>
 <section>
-	
-	<ul>
-    <li>
-     <a href="#"> ПО ЦЕНЕ</a>
-    </li>
-    <li>
-      ПО ТИПУ
-    </li>
-    <li>
-     ПО НАЗВАНИЮ
-    </li>
-
-  <p><button type="button"></button></p></p>
-  <p><button type="button"></button></p></p>
-
-  </ul>
-  
-
+	<h1>Магазин готовых шаблонов</h1>
+				 <ul>
+					 <li>По цене</li>
+					 <li><a href="#">По типу</a></li>
+					 <li><a href="#">По названию</a></li>
+				 </ul>
+				     <button type="button"></button>
+				     <button type="button"></button>
 </section>
 
-
-					<!--- 		cost & grid section			-->
-
-					 <h2>Фильтры</h2>
-
 <section>
- <form method="get" action="https://echo.htmlacademy.ru">
-	<fieldset>
-	<legend>СТОИМОСТЬ:</legend>
+		<h2>Фильтры товаров</h2>
+			<form action="https://echo.htmlacademy.ru/" method="get">
 
-	
-        <input type="range" name="amount" min ="0" max ="15000" min="0" max="15000"> 
+					<fieldset>
+					<legend>Стоимость:</legend>
 
-      
-  </fieldset>
-      <fieldset>
-	<label>
-        ОТ
-        <input type="text" name="amount" value="0"> 
-      </label>
-      <label>
-        ДО
-        <input type="text" name="amount" value="15000"> 
-      </label>
-  </fieldset>
+					 <input type="range" min ="0" max ="15000" step="1">
+					 <br>
+					 <label>От <input type="text" name="amount" value="0"></label>
+					 <label>До <input type="text" name="amount" value="15000"></label>
+					</fieldset>
 
+					<fieldset>
+					<legend>Сетка:</legend>	
+ 				  <ul>
+					 <li><input type="radio" name="grid-group" value="adaptive-grid" id="filter-adaptive-grid" checked>
+					 <label for="filter-adaptive-grid">Адаптивная</label></li>
+					 <li><input type="radio" name="grid-group" value="fixed-grid" id="filter-fixed-grid">
+					 <label for="filter-fixed-grid">Фиксированная</label></li>
+					 <li><input type="radio" name="grid-group" value="rubber-grid" id="filter-rubber-grid">
+					 <label for="filter-rubber-grid">Резиновая</label></li>
+				 </ul>
+					</fieldset>
 
-  <fieldset>
-  	<legend>СЕТКА:</legend>
- <ul>
- 	<li>
-          <input type="radio" name="grid-group" value="adaptive-grid" id="filter-adaptive-grid" checked>
-          <label for="adaptive">Адаптивная</label>
-    </li>
-    <li>
-          <input type="radio" name="grid-group" value="fixed-grid" id="filter-fixed-grid">
-          <label for="fixed">Фиксированная</label>
-    </li>
-    <li>
-          <input type="radio" name="grid-group" value="rubber-grid" id="filter-rubber-grid">
-          <label for="rubber">Резиновая</label>
-    </li>	
-          </fieldset>
+					<fieldset>
+					<legend>Особенности:</legend>	
+ 				  <ul>
+					 <li><input type="checkbox" name="slider" id="filter-slider" checked>
+					            <label for="filter-slider">Слайдер</label></li>
+					 <li><input type="checkbox" name="advantages-block" id="filter-advantages">
+					            <label for="filter-advantages">Блок преимуществ</label></li>
+				     <li><input type="checkbox" name="news" id="filter-news" checked>
+								<label for="filter-news">Новости</label></li>
+					 <li><input type="checkbox" name="gallery" id="filter-gallery">
+					            <label for="filter-gallery">Галерея</label></li>
+					 <li><input type="checkbox" name="basket" id="filter-basket">
+					            <label for="filter-basket">Корзина</label></li>
+			     </ul>
+					</fieldset>
 
-
-   <fieldset>
-   	<legend>ОСОБЕННОСТИ:</legend>
-<ul>
-	<li>
-		<input type="checkbox" name="slider" id="filter-slider" checked>
-            <label for="filter-slider">Слайдер</label>
-    </li> 
-
-    <li>
-		<input type="checkbox" name="advantages-block" id="filter-advantages" >
-            <label for="filter-slider">Блок преимуществ</label>
-	</li>
-
-	<li>
-		<input type="checkbox" name="news" id="filter-news" checked>
-            <label for="filter-slider">Новости</label>
-    </li> 
-
-    <li>
-		<input type="checkbox" name="gallery" id="filter-gallery" >
-            <label for="filter-slider">Галерея</label>
-    </li>  
-     <li>
-		<input type="checkbox" name="basket" id="filter-basket">
-            <label for="filter-slider">Корзина</label>
-    </li>  
-</ul>
-
-   </fieldset>
-
-
- <button type="button">ПОКАЗАТЬ</button>
-
-</form>
+					<button type="submit">Показать</button>
+			</form>
 </section>
 
-					<!--- 		img section			-->
 <section>
+	<h2>Сортировка товара</h2>
+				<p>Сортировать:</p>
+				<ul>
+						<li><a href="product.html"><img src="https://via.placeholder.com/359x578" width="359" height="578" alt="Проект Sedona Информационный сайт для туристов"></a></li>
+							<li class="sedona-box">
+								<p>Информационный сайт <br>для туристов</p>
+									<button type="button">9 900 ₽</button></li>
+							
+					 
+						<li><a href="product.html"><img src="https://via.placeholder.com/358x578" width="358" height="578" alt="Проект Pink App Продуктивный лендинг для IOS и Android"></a></li>
+							<li class="pink-box">
+								<p>Продуктовый лендинг<br>приложения для IOS и Android</p>
+									<button type="button">9 900 ₽</button></li>
+					  		
+					 
+						<li class="borodinski-box">
+							<a href="product.html"><img src="https://via.placeholder.com/358x578" width="358" height="578" alt="Проект барбершопа Borodinski"></a></li>
+					 		
 
+						<li class="aplus-box">
+							<a href="product.html"><img src="https://via.placeholder.com/359x578" width="359" height="578" alt="Проект Aplus"></a><li>
+					 	
 
-								<h2>Галлерея</h2>
+						<li><a href="product.html"><img src="https://via.placeholder.com/359x578" width="359" height="578" alt="Проект Kvast производство крафтового кваса"></a></li>
+							<li class="kvast-box">
+								<li><p>Промо-сайт производителя<br>крафтового кваса</p>
+									<button type="button">9 900 ₽</button></li>
+				</ul>
 
-
-	<p>СОРТИРОВАТЬ:</p>
-<ul>
-	<li>
-		<p>
-            <img src="https://via.placeholder.com/359x578" width="359" height="578" alt="img-sedona-1">
-		</p>
-		<!--- 				Sedona Block 					-->
-
-<p><div class="sedona-box">
-	<p>Информационный сайт <br>для туристов</p>
-	<p><button type="button">9 900 ₽</button></p></p>
-</div>
-	</li>
-	<li>
-		<p>
-            <img src="https://via.placeholder.com/358x578" width="358" height="578" alt="img-pink-1">
-		</p>
-	</li>
-	<li>
-		<p>
-            <img src="https://via.placeholder.com/358x578" width="358" height="578" alt="img-barbershop-1">
-		</p>
-	</li>
-	<li>
-		<p>
-            <img src="https://via.placeholder.com/359x578" width="359" height="578" alt="img-mishka-1">
-		</p>
-	</li>
-	<li>
-		<p>
-            <img src="https://via.placeholder.com/359x578" width="359" height="578" alt="img-aplus-1">
-		</p>
-	</li>
-	<li>
-		<p>
-            <img src="https://via.placeholder.com/359x578" width="359" height="578" alt="img-kvast-1">
-		</p>
-	</li>
-</ul>
-
-
-    </ul>
-    <ul>
-      <li>
-        <a href="blank.html">1</a>
-      </li>
-      <li>
-        <a href="blank.html">2</a>
-      </li>
-      <li>
-        <a href="blank.html">3</a>
-      </li>
-      <li>
-        <a href="blank.html">Следующая</a>
-      </li>
-    </ul>
-
+							 <ul>
+						     	 <li><a>1</a></li>
+						     	 <li><a href="#">2</a></li>
+						     	 <li><a href="#">3</a></li>
+						     	 <li><a href="#">Следующая</a></li>
+						    </ul>
 </section>
+</main>
 
-      
-	</main>
+<footer class="main-footer">	
+		<h2>Контакты</h2>
+<!--	 Здесь будет карта ... <img src="" width="1140" height="416" alt="изображение карты (я бы описала координатами местоположения)">  -->
+<!-- Лого Nerds на карте <img src="https://via.placeholder.com/231x190" width="231" height="190" alt="местоположение Нёрдс на карте в виде логотипа компании">  --> 
+	  	   <p>NЁRDS DESIGN STUDIO</p>
+		   <address>наб. Реки Карповки, 5 лит П, Санкт-Петербург</address><br><a href="tel:78005558628">+7 800 555-86-28</a>
+		   <br>
+		   <br>
+	  	   <button type="submit">Напишите нам</button>
 
-				<!--- 		 	maps & contact			-->
 
+	       <p>Давайте дружить, это выгодно!</p>
+		   <p>Скидка 10% для друзей из социальных сетей.</p>
+
+<!-- <a href="#">VK</a> Пока пусть будет текст, но потом заменим на иконки, только не забудь) -->
 <section>
-	
-						<h2>Контакты</h2>
-
-						<!--	 Здесь будет карта ...
-	<img src="" width="1140" height="416" alt="map-1">  -->
-
-						<!-- Лого Nerds на карте
-<img src="https://via.placeholder.com/231x190" width="231" height="190" alt="map-marker-1">  -->
-
-	<p>
-		<p>NЁRDS DESIGN STUDIO</p>
-		<p>наб. Реки Карповки, 5 лит П, Санкт-Петербург<br><a href="tel:+7 800 555-86-28">+7 800 555-86-28</a>
-		</p>
-		<button type="submit" >НАПИШИТЕ НАМ</button>
-	</p>
-
+	<h2>Мы в социальных сетях</h2>
+				<ul>
+		   			 <li><a href="#">VK</a></li>
+		   			 <li><a href="#">Facebook</a></li>
+		   			 <li><a href="#">Instagram</a></li>
+				</ul>
 </section>
-
-
-
-
-
-					<!--- 				F O O T E R 	 					-->
-
-<footer class="main-footer">
-
-					<h2>Мы в социальных сетях</h2>
-
-<section>
-		<p>Давайте дружить, это выгодно!</p>
-		<p>Скидка 10% для друзей из социальных сетей.</p>
-</section>
-
-	<section>
-		<ul>
-			<li>
-				<a href="#">VK</a>
-			</li>
-			<li>
-				<a href="#">Facebook</a>
-			</li>
-			<li>
-				<a href="#">Instagram</a>
-			</li>
-		</ul>
-	</section>
-
-	</footer>
+</footer>
 </body>
 </html>
