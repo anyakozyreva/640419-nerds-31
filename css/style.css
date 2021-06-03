@@ -258,6 +258,26 @@ background-color: var(--dark-yellow);
     color: var(--basic-neutral-grey);
 }
 
+.main-footer-item {
+  text-align: center;
+}
+
+.footer-title{
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 700;
+  color: var(--basic-black);
+
+}
+
+.footer-title-item{
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  color: var(--basic-black);
+
+}
+
 /* modal-wrapper */
 .modal-wrapper-description{
     font-size: 36px;
@@ -295,7 +315,7 @@ background-color: var(--dark-yellow);
 
 .modal-wrapper-form-name input:focus,
 .modal-wrapper-form-name textarea:focus{
-    color: var(--basic-black);
+    color: var(--basic-warm-grey);
 }
 
 
