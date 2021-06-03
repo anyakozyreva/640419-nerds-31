@@ -190,6 +190,13 @@ background-color: var(--dark-yellow);
 
 /*   about-wrapper  */
 
+.about-wrapper-title{
+    font-size: 45px;
+    line-height: 45px;
+    font-weight: 500;
+    color: var(--basic-black);
+}
+
 .about-wrapper-list {
     list-style: none;
 }
@@ -276,6 +283,10 @@ background-color: var(--dark-yellow);
   font-weight: 400;
   color: var(--basic-black);
 
+}
+
+.socials-list{
+  list-style: none;
 }
 
 /* modal-wrapper */
