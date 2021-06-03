@@ -1,0 +1,303 @@
+/* Variables */
+
+:root {
+ --basic-black: #000000;
+
+ --basic-extra-grey: #283136;
+ --basic-grey: #4D4D4D;
+ --basic-warm-grey: #444444;
+ --basic-warm-white: #888888;
+ --basic-neutral-grey: #666666;
+
+ --basic-neutral: #EEEEEE;
+ --basic-white:  #FFFFFF;
+
+ --basic-red: #FB565A;
+ --light-red: #E74246;
+ --dark-red: #D7373B;
+
+ --basic-green: #00CA74;
+ --light-green: #00BC6C;
+ --dark-green: #00AA62;
+
+ --basic-yellow: #EFC849;
+ --light-yellow: #EAB534;
+ --dark-yellow: #E5A722;
+
+}
+
+
+
+/* Global */
+
+  body {
+
+  min-width: 960px;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: var(--basic-extra-grey) ;
+  font-family: "Roboto", Arial, sans-serif;
+  background-color: var(--basic-white);
+}
+
+a {
+
+  text-decoration: none;
+}
+
+img {
+
+  max-width: 100%;
+  height: auto;
+}
+
+
+h2 {
+
+  display: none;
+}
+
+h3{
+
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    color: var(--basic-black) ;
+    text-transform: uppercase;
+}
+
+/* Button */
+
+button {
+ border-radius: 3px;
+ border: none;
+ text-transform: uppercase;
+}
+
+
+/* Header */
+
+header {
+    background-color: var(--basic-neutral);
+}
+
+/* Main navigation */
+
+.main-navigation {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+/* Site Navigation */
+
+.site-navigation {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-navigation-current a:not([href]) {
+  background-color: var(--basic-black);
+}
+
+.site-navigation a,
+.user-cart a {
+  color: var(--basic-black);
+}
+
+.site-navigation a:hover,
+.user-cart a:hover {
+  color: var(--basic-red);
+}
+
+.site-navigation a:focus,
+.user-cart a:focus {
+  background-color: var(--basic-extra-dark);
+}
+
+
+/* Slider */
+
+.slider-content {
+    list-style: none;
+}
+
+.slider-title {
+    width: 538px;
+    font-size: 55px;
+    line-height: 55px;
+    color: var(--basic-black);
+}
+
+
+/* Slider Button */
+
+
+
+/* Red */
+
+.features-button-red {
+  background-color: var(--basic-red);
+}
+.features-button-red:focus {
+  background-color: var(--light-red);
+}
+.features-button-red:hover{
+background-color: var(--dark-red);
+}
+
+/* Green */
+.features-button-green {
+  background-color: var(--basic-green);
+}
+.features-button-green:focus {
+  background-color: var(--light-green);
+}
+.features-button-green:hover{
+background-color: var(--dark-green);
+}
+
+/* Yellow */
+.features-button-yellow {
+ background-color: var(--basic-yellow);
+}
+.features-button-yellow:focus {
+  background-color: var(--light-yellow);
+}
+.features-button-yellow:hover{
+background-color: var(--dark-yellow);
+}
+
+
+/* Features */
+
+.features-list {
+    list-style: none;
+}
+
+
+.feature-item {
+    position: relative;
+
+}
+
+
+/*   about-wrapper  */
+
+.about-wrapper-list {
+    list-style: none;
+}
+
+.about-wrapper-t-t {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: var(--basic-extra-grey);
+
+}
+
+.about-wrapper-item{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: var(--basic-extra-grey);
+}
+
+
+/*   point-wrapper  */
+
+.point-wrapper-title {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: var(--basic-black);
+}
+
+.point-item {
+    font-size: 45px;
+    line-height: 64px;
+    font-weight: 700;
+    color: var(--basic-black);
+}
+
+.point-wrapper-item{
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    color: var(--basic-extra-grey);
+}
+
+
+/* clients-list */
+
+ .clients-list {
+    list-style: none;
+ }
+
+
+/* main-footer */
+
+.main-footer-title {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    color: var(--basic-black);
+    text-transform: uppercase;
+}
+
+.address {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    color: var(--basic-neutral-grey);
+}
+
+/* modal-wrapper */
+.modal-wrapper-description{
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 700;
+    color: var(--basic-black);
+}
+
+.form-name {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 700;
+    color: var(--basic-black);
+}
+
+.modal-form-item{
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 700;
+    color: var(--basic-black);
+}
+
+.modal-form-letter{
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 700;
+    color: var(--basic-black);
+}
+
+.modal-wrapper-form-name input:
+.modal-wrapper-form-name textarea:{
+    width: 360px;
+    height: 50px;
+}
+
+.modal-wrapper-form-name input:focus,
+.modal-wrapper-form-name textarea:focus{
+    color: var(--basic-black);
+}
+
+
+
+
